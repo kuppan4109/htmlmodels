@@ -1,0 +1,158 @@
+/* body */
+body 
+{
+    font-family: 'Roboto';
+}
+/* box position */
+#box1
+{
+    width:100vw;
+    height:100vh;
+    background-image:url("../img/17892.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box2
+{
+    height:20vh;
+    width:10vw;
+    background-image: url(../img/368.jpg);
+    border: 2px solid black;
+    box-shadow: 5px  5px grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box3
+{   
+    position: absolute;
+    left:150px;
+    height:20vh;
+    width:10vw;
+    background-image: url(../img/3312.jpg);
+    background-repeat: no-repeat;
+    background-size:inherit;
+    border: 2px solid black;
+    box-shadow: 5px 5px grey;
+    border-radius: 70px;
+}
+#box4
+{   
+    position: absolute;
+    height:20vh;
+    width:10vw;
+    background-image:url(../img/15178.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    left:292px;
+    top: 386px;
+    border: 2px solid black;
+    box-shadow:5px 5px grey;
+}
+#box5
+{   position: absolute;
+    height:20vh;
+    width:10vw;
+    background-color:rgba(212, 211, 211, 0.5);
+    left:440px;
+    top: 520px;
+   
+}
+/* headings */
+h1,h2
+{
+    color:red
+}
+h1
+{
+    text-align: center;
+    font-size: 36px;
+}
+h2
+{
+    text-align: center;
+    font-size: 24px;
+}
+/* section id */
+#section-border1 h1
+{
+    background-color:yellow;
+    border-width:1px 5px 2px 3px ;
+    border-style: solid;
+    border-color:green;
+    display: inline-block;
+}
+#section-border1 h2
+{
+    border-bottom: 2px solid orange;
+    display:inline-block;
+}
+#section-border2 h1
+{
+    background-color: green;
+    border-width:1px 5px 2px 3px ;
+    border-style: solid;
+    border-color:blue;
+    display: inline-block;
+}
+#section-border2 h2
+{
+    border-bottom: 2px solid blue;
+    display:inline-block;
+}
+/* table alignment */
+table
+{
+    width: 70%;
+}
+table,tr,td,th
+{
+    font-family: Calibri; 
+    font-size: 11pt; 
+    font-weight: bold;
+    text-align:left; 
+    border-collapse: collapse;  
+    border: 2px solid black;
+    height:47px;
+    background-color: wheat;
+}
+/* display function */
+.welcome
+{
+    display: inline-block;
+    width:48%;
+}
+/* form aligning */
+form 
+{
+    max-width: 300px;
+    margin: 10px auto ;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border: 3px solid black;
+}
+/* button alignment */
+button 
+{
+    background-color: #4bc970;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    border: 1px solid white;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* field alignment */
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='date'],
+textarea
+{
+    width:100%;
+}
+/* image content fitting */
+img{
+   width:50%;
+   margin-left:310px;
+}
